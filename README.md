@@ -1,8 +1,8 @@
-                                                                                Fantasy Manhwa Collection Web Application
+  Fantasy Manhwa Collection Web Application
 
 Overview Develop a cloud-deployed platform showcasing an assortment of fantasy manhwa titles, complete with genres and summaries. This application leverages AWS for robust hosting and infrastructure management, ensuring scalability, security, and the ability to handle traffic surges.
 
-Key Features
+  Key Features
 
 Manhwa Catalog: Lists top fantasy manhwa titles with corresponding genres and descriptions, sourced from a sample JSON file.
 
@@ -14,7 +14,7 @@ Security: Implements HTTPS via AWS Certificate Manager, with configured firewall
 
 
 
-                                                                                            Project Structure
+  Project Structure
 
 app.py: Python Flask backend serving the web application.
 
@@ -26,7 +26,7 @@ static/: Directory housing static assets such as CSS files.
 
 
 
-                                                                                       Cloud Deployment Components
+  Cloud Deployment Components
 
 Hosting: Deployed on an AWS EC2 instance running Flask.
 
@@ -40,7 +40,7 @@ Security: Ensures secure connections with HTTPS, managed by AWS Certificate Mana
 
 
 
-                                                                                           Deployment Steps
+  Deployment Steps
 
 EC2 Instance: Set up an EC2 instance on AWS.
 
